@@ -12,9 +12,9 @@
 
 ---
 
-## Mecánica del evento (4 horas)
+## Mecánica del evento (5 horas)
 
-### Fase 1 — Bad Pitch Round (30 min)
+### Fase 1 — Bad Pitch Round (45 min)
 
 Cada equipo tiene **2 minutos** para pitchear su idea terrible.
 
@@ -32,7 +32,7 @@ Reglas del pitch:
 
 ---
 
-### Fase 2 — Constraint Attack (30 min)
+### Fase 2 — Constraint Attack (45 min)
 
 Después de cada pitch, los otros equipos atacan con restricciones.
 
@@ -64,7 +64,7 @@ Los organizadores tienen veto si una restricción es inútil o imposible.
 
 ---
 
-### Fase 3 — Build Phase (2 horas)
+### Fase 3 — Build Phase (2 horas 30 min)
 
 Los equipos construyen su idea terrible con todas las restricciones encima.
 
@@ -144,12 +144,12 @@ El perfil de ventas tiene un rol clave desde la Fase 1: vender la idea con la ma
 
 ---
 
-## Variante: "El Giro Final"
+## El Giro Final 
 
-A los 30 min del build phase, los organizadores revelan un **twist obligatorio** para todos:
+A los 60 min del build phase, los organizadores revelan un **twist obligatorio** para todos (simulando un cambio de requerimientos del cliente o mercado):
 
 - "Ahora todos deben agregar un componente de IA generativa"
-- "El producto debe funcionar sin JavaScript"
+- "La aplicación debe incluir un 'Modo Boyacá' (temática o jerga regional obligatoria)"
 - "Deben cobrar en créditos universitarios ficticios"
 
 Obliga a pivotear a mitad del camino — simula el caos real de un producto.
