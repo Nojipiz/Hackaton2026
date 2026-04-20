@@ -2,94 +2,60 @@
 
 ## Contexto de evaluación
 
-- **Duración disponible:** ~5–6 horas (tarde, 2pm–8pm)
-- **Participantes:** 15–20 personas, 3–5 equipos
-- **Perfil:** mixto técnico + ventas/comunicación
-- **Objetivo diferencial:** no ser un hackathon monótono de "construye y muestra"
+- **Duración disponible:** Exactamente 5 horas (ej. 14:00–19:00, con pitches hasta las 20:00)
+- **Participantes:** 15–20 personas, 3–5 equipos (Equipos de 3-4 personas máximo)
+- **Perfil:** Mixto (Ingenieros Backend/Frontend + Perfiles de Producto/Ventas/Comunicación)
+- **Objetivo diferencial:** Romper el molde del "hackathon aburrido de hacer un CRUD". Mostrar la evolución de la ingeniería de software (Sistemas Distribuidos, IA, Trabajo Colaborativo en Red).
 
 ---
 
-## Formatos existentes
+## Formatos Evaluados y Evolucionados
 
-### 1. Hackathon Clásico (Build & Demo)
-Equipos construyen libremente alrededor de un tema, presentan al final.
+En base a los formatos tradicionales, hemos diseñado dos grandes macrotendencias para este evento de 5 horas: **Hackathones Grupales (Competitivos)** y **Hackathones Colaborativos (Sistemas Interdependientes)**.
 
-| | |
-|---|---|
-| **Pros** | Libertad creativa, fácil de organizar, familiar para todos |
-| **Contras** | Monótono, sin tensión durante el desarrollo, los pitches son aburridos |
-| **Fit para 6h** | Alto — no requiere infraestructura especial |
-| **Fit perfil mixto** | Bajo — favorece a los más técnicos |
+### Macrotendencia 1: Hackathones Grupales (Competitivos)
+*Cada equipo construye su propio producto aislado y compite contra los demás para ver quién tiene la mejor solución, el mejor pitch o la mejor arquitectura.*
 
----
+#### 1. Startup Arena / Shark Tank (Propuesta B)
+- **Mecánica:** Los equipos reciben 5 problemas reales de la región (Boyacá/Tunja). Tienen 5 horas para construir un MVP funcional y presentarlo ante un jurado de "inversionistas" que tienen un presupuesto ficticio (ej. $1,000,000,000 COP) para repartir.
+- **Por qué funciona:** Es el formato perfecto para integrar perfiles técnicos (que programan a toda velocidad) y perfiles de producto/ventas (que preparan el modelo de negocio, el ROI y el pitch deck).
+- **Espectáculo:** La competencia final por el "dinero" de los inversionistas genera muchísima tensión.
 
-### 2. Hackathon Temático (Problema definido)
-Se entrega un brief específico al inicio. Todos trabajan sobre el mismo problema.
+#### 2. Constraint Attack / Brutal Reality (Propuesta C)
+- **Mecánica:** Los equipos proponen ideas de startup intencionalmente malas o absurdas (ej. "Tinder para buscar grupo de tesis en la UPTC"). Los *otros equipos* les imponen restricciones técnicas y de negocio brutales (ej. "No puedes usar bases de datos relacionales" o "Debes monetizar el día 1"). Tienen que construirlo de todas formas.
+- **Por qué funciona:** Nivela el campo de juego. No gana el que programa más rápido, sino el más creativo y resiliente para sortear restricciones absurdas. 
+- **Espectáculo:** Las presentaciones finales son hilarantes pero técnicamente impresionantes.
 
-| | |
-|---|---|
-| **Pros** | Fácil comparar soluciones, más justo entre equipos |
-| **Contras** | Puede sentirse forzado, limita creatividad |
-| **Fit para 6h** | Alto |
-| **Fit perfil mixto** | Medio — depende del tema elegido |
+#### 3. Feature Frenzy (Propuesta E)
+- **Mecánica:** Se da un brief inicial súper simple. Pero *cada hora exacta*, los organizadores revelan un nuevo requerimiento obligatorio en pantalla (a veces técnico, a veces un cambio de negocio, a veces un twist absurdo).
+- **Por qué funciona:** Simula la vida real del ingeniero de software: los requerimientos del cliente siempre cambian. Gana el equipo que diseñó la arquitectura más flexible y no el que "hardcodeó" todo en la primera hora.
+- **Espectáculo:** La alarma sonando cada hora revelando un requerimiento que destruye el código de los equipos genera pura adrenalina.
 
 ---
 
-### 3. Hackathon Competitivo / Gamificado
-Hay un sistema de puntuación en tiempo real visible para todos. Los equipos ven su posición durante el evento.
+### Macrotendencia 2: Hackathones Colaborativos (Ecosistemas Vivos)
+*Nadie gana solo. Todos los equipos (la sala entera) deben construir piezas de software que se conectan entre sí para formar un único mega-sistema. Si un equipo falla, el sistema entero sufre.*
 
-| | |
-|---|---|
-| **Pros** | Crea tensión y espectáculo, motiva durante el desarrollo |
-| **Contras** | Requiere infraestructura de scoring, puede desmotivar si alguien se queda atrás temprano |
-| **Fit para 6h** | Medio — necesita setup técnico previo |
-| **Fit perfil mixto** | Alto — el marcador es visual y accesible para todos |
+#### 4. Startup Ecosystem Builder (Propuesta A)
+- **Mecánica:** Se plantea un macro-problema de ciudad (ej. Plataforma Inteligente de Transporte para Tunja). Toda la sala hace una sesión de System Design. Luego, cada equipo construye solo un microservicio (Ej. Equipo 1 hace la API de Pagos, Equipo 2 la API de Rutas). 
+- **La magia:** Los servicios de los equipos tienen que comunicarse entre sí por Internet (APIs) en tiempo real durante el evento.
+- **Por qué funciona:** Enseña arquitectura de microservicios y contratos de API. Si el equipo de Pagos cambia su respuesta JSON sin avisar, tumba la aplicación del equipo de Rutas. 
+- **Espectáculo:** Hay un dashboard global proyectado viendo qué servicios están "Up" (verdes) y cuáles están caídos o fallando en sus integraciones.
 
----
-
-### 4. CTF Técnico (Capture the Flag)
-Retos técnicos predefinidos (seguridad, algoritmos, etc.). Equipos resuelven challenges individualmente.
-
-| | |
-|---|---|
-| **Pros** | Muy divertido para perfil técnico puro, fácil de evaluar |
-| **Contras** | Excluye perfiles no técnicos, no hay producto final tangible |
-| **Fit para 6h** | Alto |
-| **Fit perfil mixto** | Bajo — no hay espacio para ventas/comunicación |
+#### 5. City OS: The Swarm / Simulación Multi-Agente (Propuesta D)
+- **Mecánica:** Los organizadores proyectan el mapa en vivo de Tunja. Los equipos no hacen interfaces web; escriben algoritmos (bots) en Python/Node que se conectan por WebSockets al mapa. Un equipo controla los semáforos, otro una flota de Uber, otro los camiones de Rappi. 
+- **La magia:** Asimetría de información. El equipo de Uber no sabe dónde hay trancones, *solo* el equipo de Semáforos lo sabe. Uber tiene que negociar físicamente en la sala con el equipo de Semáforos para que les expongan una API con los datos de tráfico en vivo, o sus algoritmos de rutas colapsarán.
+- **Por qué funciona:** Es ingeniería de software *hardcore*: WebSockets, algoritmos de grafos (A*), concurrencia extrema y sistemas distribuidos.
+- **Espectáculo:** Literalmente parece un videojuego en pantalla gigante donde los autos se mueven basados en el código que los estudiantes están escribiendo en tiempo real, sufriendo eventos de caos (ej. "Accidente en la glorieta").
 
 ---
 
-### 5. Startup Weekend (Pitch + MVP)
-Inspirado en eventos tipo Shark Tank. Equipos construyen un MVP y lo presentan como si fuera una startup.
+## Conclusión del Análisis para las 5 horas
 
-| | |
-|---|---|
-| **Pros** | Integra ventas y técnica naturalmente, el pitch es el corazón del evento |
-| **Contras** | En 6h el "MVP" puede quedar muy superficial si no hay guía |
-| **Fit para 6h** | Medio — necesita scaffolding claro para no perderse en el setup |
-| **Fit perfil mixto** | Muy alto — celebra ambos perfiles por igual |
+Para el contexto del **30° aniversario de la Escuela de Ingeniería de Sistemas y Computación (UPTC)**, el evento debe ser memorable. 
 
----
+Cualquiera de las **5 Propuestas Finales (`03_propuestas/`)** logra este objetivo, pero requieren distintos niveles de preparación:
 
-### 6. Battle / Arena (Equipos compiten en tiempo real)
-Los equipos construyen algo que se enfrenta a una amenaza externa o a otros equipos. Hay un árbitro técnico que genera presión.
-
-| | |
-|---|---|
-| **Pros** | Alta tensión, espectacular, narrativa natural ("el último en pie gana") |
-| **Contras** | Requiere preparación técnica del árbitro, puede ser frustrante si un equipo cae temprano |
-| **Fit para 6h** | Medio-Alto — necesita plantillas de deploy para bajar la curva de entrada |
-| **Fit perfil mixto** | Medio — el pitch post-battle le da espacio al perfil de ventas |
-
----
-
-## Conclusión del análisis
-
-Para el contexto del **30° aniversario de Ingeniería en Sistemas UPTC**, el formato ideal combina:
-
-1. **Gamificación en tiempo real** — crea tensión y espectáculo durante el desarrollo
-2. **Pitch obligatorio** — integra el perfil técnico-ventas y diferencia del hackathon clásico
-3. **Cloud accesible** — deploy rápido (Railway, Vercel, Render) para que los equipos puedan demostrar algo real
-4. **Flexibilidad de roles** — equipos solo-FE, solo-BE, o mixtos son todos válidos
-
-Los 4 enfoques propuestos en `03_propuestas/` son variaciones sobre esta combinación.
+- **Menos esfuerzo técnico para organizadores:** Propuestas **B** (Shark Tank) y **C** (Terrible Ideas). Solo requieren buenos jurados y creatividad.
+- **Esfuerzo medio (Infraestructura):** Propuesta **E** (Feature Frenzy). Requiere muy buena planeación de los requerimientos sorpresa.
+- **Alto esfuerzo técnico (Para lucirse):** Propuestas **A** (Ecosistema) y **D** (City OS). Requieren que los organizadores construyan bots de tráfico, servidores de WebSockets o interfaces gráficas de simulación *antes* del evento, pero garantizan un espectáculo de ingeniería sin precedentes en la región.

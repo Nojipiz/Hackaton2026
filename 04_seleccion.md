@@ -1,19 +1,19 @@
 # Selección de Propuesta — Matriz Comparativa
 
-**Propuestas activas:**
-- **A** — Startup Survival Arena (ecosistema de microservicios interdependientes con árbitro)
-- **B** — Startup Arena / Shark Tank UPTC (MVP + pitch ante "inversionistas")
-- **C** — Terrible Ideas, Brutal Reality (pitch malo → restricciones de otros equipos → build)
-- **D** — Una Sola Máquina (cada equipo hace una pieza, al final integran todo)
-- **E** — Feature Frenzy (brief que muta cada hora, arquitectura flexible gana)
+**Propuestas activas (5 horas de duración):**
+- **A** — Startup Ecosystem [Colaborativo] (Ecosistema de microservicios interdependientes con tráfico en vivo)
+- **B** — Startup Arena / Shark Tank UPTC [Grupos] (Equipos compiten construyendo MVPs para inversores)
+- **C** — Terrible Ideas, Brutal Reality [Grupos] (Pitch malo → equipos rivales imponen restricciones → build)
+- **D** — City OS: The Swarm [Colaborativo] (Simulación en tiempo real donde equipos programan bots para controlar la ciudad)
+- **E** — Feature Frenzy [Grupos] (Requerimientos sorpresa cada hora, gana la arquitectura más flexible)
 
 **Restricciones del evento:**
-- 13:30 llegada / 14:00 inicio / 15:00 arranque de desarrollo
-- 4h 30min de desarrollo garantizado (15:00–19:30)
-- 3 personas por equipo exactamente
+- 14:00 inicio / 15:00 arranque de desarrollo algorítmico o de producto
+- Exactamente 5 horas de duración total
+- 3-4 personas por equipo (Perfil mixto: Frontend, Backend, Producto/Ventas)
 - IA permitida (Cursor, Copilot, ChatGPT, Claude, etc.)
-- Deploy real en cloud obligatorio (Railway / Vercel / Render)
-- Pitch obligatorio para todos
+- Deploy real en cloud obligatorio o conexión a servidor central
+- Pitch y Demo obligatorios para todos
 
 ---
 
@@ -35,49 +35,49 @@ Cada criterio se puntúa de 1 a 5 (5 = excelente para nuestro contexto).
 
 ## Matriz de puntuación
 
-| Criterio | Peso | A — Survival Arena | B — Shark Tank | C — Terrible Ideas | D — Una Sola Máquina | E — Feature Frenzy |
+| Criterio | Peso | A — Ecosystem | B — Shark Tank | C — Terrible Ideas | D — City OS | E — Feature Frenzy |
 |---|---|---|---|---|---|---|
-| Viabilidad en el tiempo | 15% | 4 | 5 | 5 | 4 | 5 |
-| Espectáculo / tensión | 20% | 5 | 3 | 4 | 4 | 5 |
-| Integración del pitch | 15% | 4 | 5 | 5 | 5 | 5 |
-| Fit perfil mixto | 15% | 4 | 5 | 5 | 5 | 5 |
+| Viabilidad en el tiempo | 15% | 4 | 5 | 5 | 3 | 5 |
+| Espectáculo / tensión | 20% | 5 | 3 | 4 | 5 | 5 |
+| Integración del pitch | 15% | 4 | 5 | 5 | 3 | 5 |
+| Fit perfil mixto | 15% | 4 | 5 | 5 | 3 | 5 |
 | Originalidad | 15% | 5 | 3 | 5 | 5 | 4 |
-| Accesibilidad técnica | 10% | 3 | 5 | 4 | 4 | 5 |
-| Prep organizadores (inv.) | 10% | 2 | 4 | 4 | 3 | 4 |
+| Accesibilidad técnica | 10% | 3 | 5 | 4 | 2 | 5 |
+| Prep organizadores (inv.) | 10% | 2 | 4 | 4 | 1 | 4 |
 
 ### Puntajes ponderados
 
 | Propuesta | **Puntaje** |
 |---|---|
-| A — Startup Survival Arena | 4.05 |
-| B — Startup Arena / Shark Tank | 4.10 |
-| C — Terrible Ideas, Brutal Reality | **4.60** |
-| D — Una Sola Máquina | 4.45 |
-| E — Feature Frenzy | **4.75** ⭐ |
+| A — Startup Ecosystem [Colaborativo] | 4.05 |
+| B — Startup Arena / Shark Tank [Grupos] | 4.10 |
+| C — Terrible Ideas, Brutal Reality [Grupos] | 4.60 |
+| D — City OS: The Swarm [Colaborativo] | 3.45 |
+| E — Feature Frenzy [Grupos] | **4.75** ⭐ |
 
 ---
 
 ## Análisis por propuesta
 
-### A — Startup Survival Arena
-Marcador en vivo y ecosistema de microservicios son originales. El rol de ventas (convencer a otros de integrarte) es genuino. Requiere árbitro técnico bien preparado. Equipos sin experiencia en APIs tienen curva pronunciada.  
-**Descartable si:** hay participantes sin experiencia en deploy de APIs.
+### A — Startup Ecosystem [Colaborativo]
+Marcador en vivo y ecosistema de microservicios son originales. El rol de ventas (convencer a otros de integrarte) es genuino. Requiere un bot de tráfico bien preparado. Equipos sin experiencia en despliegue de APIs tienen curva pronunciada.  
+**Descartable si:** No hay capacidad técnica por parte de la organización para montar el bot de tráfico y el dashboard en vivo.
 
-### B — Startup Arena / Shark Tank
-El más fácil de organizar y el más familiar para audiencias mixtas. El pitch es el núcleo. Le falta tensión durante el build. Funciona bien como evento más formal o si el público incluye personas externas (profesores, directivos).  
-**Ideal si:** hay invitados externos que actúan como "inversionistas" reales.
+### B — Startup Arena / Shark Tank [Grupos]
+El más fácil de organizar y el más familiar para audiencias mixtas. El pitch es el núcleo. Le falta tensión durante el desarrollo técnico (programar).  
+**Ideal si:** Hay invitados externos o autoridades de la UPTC que quieran actuar como "inversionistas" con dinero ficticio.
 
-### C — Terrible Ideas, Brutal Reality
-Originalísima. El bad pitch como icebreaker es perfecto para un aniversario. Las restricciones crean drama inter-equipos. El perfil de ventas tiene protagonismo desde el minuto 1. Requiere jurado bien briefeado.  
-**Mejor momento del evento:** el pitch inicial de ideas terribles con total confianza.
+### C — Terrible Ideas, Brutal Reality [Grupos]
+Originalísima. El "bad pitch" como rompehielo es perfecto para un aniversario. Las restricciones crean drama divertido entre equipos. El perfil de ventas tiene protagonismo desde el minuto 1 defendiendo ideas estúpidas con total seguridad.  
+**Mejor momento del evento:** Cuando un equipo le impone a otro la restricción de "No puedes usar base de datos".
 
-### D — Una Sola Máquina
-La más diferente conceptualmente — cooperativa-competitiva. El momento de integración (30 min donde todo se conecta) es el más representativo del trabajo real en ingeniería. Exige coordinación inter-equipos desde el inicio. Si un equipo bloquea, puede afectar a todos.  
-**Mejor momento del evento:** la demo del sistema completo corriendo por primera vez.
+### D — City OS: The Swarm [Colaborativo]
+Espectáculo visual inigualable (la ciudad moviéndose en pantalla gigante). Nivel técnico *hardcore* (Sistemas distribuidos, algoritmos de grafos, WebSockets). El mercado de datos en vivo (negociación de APIs) rompe el molde. Sin embargo, el perfil de "ventas" puro sufre un poco porque todo es back-end.  
+**Descartable si:** La organización no tiene tiempo de programar el motor de la simulación gráfica antes del evento.
 
-### E — Feature Frenzy ⭐
-La que mejor simula la realidad de producto. Cada revelación de requisito es un momento dramático. El pitch es narrativo ("así sobrevivimos a 4 cambios de rumbo"). El perfil de comunicación actúa como PM en tiempo real. La IA encaja naturalmente en el Requisito 4. La arquitectura flexible gana — no el más rápido.  
-**Mejor momento del evento:** el Requisito 4 revelado a las 18:15 — la reacción de los equipos.
+### E — Feature Frenzy [Grupos] ⭐
+La que mejor simula la realidad laboral de un ingeniero de software. Cada hora que suena la alarma revelando un requisito nuevo es un micro-infarto. El pitch final narrativo ("así sobrevivimos a los cambios de nuestro cliente") es honesto. La arquitectura de código gana, no la velocidad al teclear.  
+**Mejor momento del evento:** Cuando se revela el requisito de la hora 4, forzando a todos a desechar la mitad de su código.
 
 ---
 
