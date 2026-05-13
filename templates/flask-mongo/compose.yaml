@@ -1,0 +1,19 @@
+services:
+  backend:
+    build:
+      context: flask
+      target: builder
+    # flask requires SIGINT to stop gracefully
+    # (default stop signal from Compose is SIGTERM)
+    stop_signal: SIGINT
+    environment:
+      - FLASK_SERVER_PORT=${FRONTEND_PORT:-9091}
+    ports:
+      - "${FRONTEND_PORT:-9091}:${FRONTEND_PORT:-9091}"
+    volumes:
+      - ./flask:/src
+    depends_on:
+      - mongo  
+
+  mongo:
+    image: mongo
