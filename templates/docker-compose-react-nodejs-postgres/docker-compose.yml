@@ -3,7 +3,7 @@ services:
         container_name: database
         image: postgres:18-alpine
         ports:
-            - "5431:5432"
+            - "5432:5432"
         environment:
             POSTGRES_USER: "${POSTGRES_USER}"
             POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
@@ -22,7 +22,7 @@ services:
             context: ./server
             dockerfile: Dockerfile
         ports:
-            - "7999:8000"
+            - "8000:8000"
         environment:
             DATABASE_URL: "${DATABASE_URL}"
             PORT: "${SERVER_PORT}"
@@ -36,6 +36,6 @@ services:
             dockerfile: Dockerfile
         command: ["sh", "-c", "npm run preview"]
         ports:
-            - "4172:4173"
+            - "4173:4173"
         depends_on:
             - server
