@@ -4,9 +4,9 @@ services:
       context: frontend
       target: development
     ports:
-      - "${FRONTEND_PORT:-4000}:3000"
+      - "${FRONTEND_PORT:-4000}:${FRONTEND_PORT:-4000}"
     environment:
-      - PORT=3000
+      - PORT=${FRONTEND_PORT:-4000}
     stdin_open: true
     volumes:
       - ./frontend:/usr/src/app
