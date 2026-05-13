@@ -8,6 +8,7 @@ services:
     environment:
       - PORT=${FRONTEND_PORT:-4000}
       - DANGEROUSLY_DISABLE_HOST_CHECK=true
+      - WDS_SOCKET_PORT=0
     stdin_open: true
     volumes:
       - ./frontend:/usr/src/app
