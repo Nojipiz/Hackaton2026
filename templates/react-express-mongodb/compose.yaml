@@ -4,9 +4,9 @@ services:
       context: frontend
       target: development
     ports:
-      - "${FRONTEND_PORT:-4000}:${FRONTEND_PORT:-4000}"
+      - "${FRONTEND_PORT:-4500}:${FRONTEND_PORT:-4500}"
     environment:
-      - PORT=${FRONTEND_PORT:-4000}
+      - PORT=${FRONTEND_PORT:-4500}
       - DANGEROUSLY_DISABLE_HOST_CHECK=true
       - WDS_SOCKET_PORT=0
     stdin_open: true
